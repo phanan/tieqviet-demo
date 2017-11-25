@@ -4405,9 +4405,9 @@ thunky@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-0.1.0.tgz#bf30146824e2b6e67b0f2d7a4ac8beb26908684e"
 
-tieqviet@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/tieqviet/-/tieqviet-1.0.0.tgz#41a1718274170ddfcf66f0f93bbd268362806746"
+tieqviet@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tieqviet/-/tieqviet-1.0.1.tgz#91954559166d54e8bb39f7c17da51b0f04b5bb6b"
 
 time-stamp@^2.0.0:
   version "2.0.0"
