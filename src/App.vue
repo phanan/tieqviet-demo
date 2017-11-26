@@ -59,14 +59,21 @@ Lớp cha trước, lớp con sau
 </script>
 
 <style lang="scss">
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body, html {
   font-size: 14px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  padding-top: 15px;
   line-height: 1.6;
+}
+
+body {
+  padding: 15px;
 }
 
 a {
@@ -75,7 +82,8 @@ a {
 }
 
 #app {
-  width: 500px;
+  width: 100%;
+  max-width: 640px;
   margin: 0 auto;
 }
 
@@ -96,7 +104,7 @@ textarea {
   border-radius: 5px;
   padding: 8px;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  white-space: pre-wrap
+  white-space: pre-wrap;
 }
 
 .copyright {
